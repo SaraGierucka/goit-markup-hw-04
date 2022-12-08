@@ -66,6 +66,7 @@ body {
 .title-section {
   background-color: var(--darkblue-background);
   margin: 0 auto;
+  background-image: url('../images/background.jpg');
 }
 .title {
   color: var(--white);
@@ -262,10 +263,10 @@ body {
   padding: 0;
   gap: 46px;
   margin-left: 93px;
-  margin-right: 371px;
+  margin-right: 345px;
 }
 .tel-margin {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .flex-texts {
   display: flex;
@@ -307,7 +308,13 @@ body {
 .margin-figcaption-portfolio {
   margin-top: 20px;
 }
-.icon {
-  fill: var(--grey);
-  
+.contact-icon {
+  fill: currentColor;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.contact-links:hover,
+.contact-links:focus {
+  color: var(--blue-hover-focus);
+  fill: currentColor;
 }
