@@ -10,6 +10,7 @@
   --white-background: #ffffff;
   --blue-hover-focus: #2196f3;
   --verylightgrey: #eeeeee;
+  --background-gradient: rgba(47, 48, 58, 0.4);
 }
 h1,
 h2,
@@ -66,7 +67,7 @@ body {
 .title-section {
   background-color: var(--darkblue-background);
   margin: 0 auto;
-  background-image: url('../images/background.jpg');
+  background-image: linear-gradient(to bottom, var(--background-gradient), var(--background-gradient)), url('../images/background.jpg');
 }
 .title {
   color: var(--white);
@@ -315,6 +316,5 @@ body {
 }
 .contact-links:hover,
 .contact-links:focus {
-  color: var(--blue-hover-focus);
   fill: currentColor;
 }
