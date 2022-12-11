@@ -67,7 +67,7 @@ body {
 .title-section {
   background-color: var(--darkblue-background);
   margin: 0 auto;
-  background-image: linear-gradient(to bottom, var(--background-gradient), var(--background-gradient)), url('../images/background.jpg');
+  background-image: linear-gradient(to bottom, var(--background-gradient), var(--background-gradient)), url(../images/background.jpg);
 }
 .title {
   color: var(--white);
@@ -317,4 +317,10 @@ body {
 .contact-links:hover,
 .contact-links:focus {
   fill: currentColor;
+}
+.text-icon-box {
+  padding: 25px 102.34px;
+  margin-bottom: 30px;
+  background-color: var(--lightgray-background);
+  text-align: center;
 }
